@@ -1,0 +1,68 @@
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{width:100%;height:100%;}
+
+body{
+  background:#000;
+  display:grid;
+  place-items:center;
+  font-family:Georgia,serif;
+}
+
+.convite{
+  width:100vw;
+  height:100vh;
+  max-width:900px;
+  position:relative;
+  overflow:hidden;
+}
+
+.convite img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  display:block;
+}
+
+.btn-musica{
+  position:absolute;
+  top:20px;
+  right:20px;
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  background:rgba(0,0,0,.35);
+  border:1px solid #fff;
+  color:#fff;
+  font-size:18px;
+  cursor:pointer;
+}
+
+.navegacion{
+  position:absolute;
+  bottom:24px;
+  left:0;
+  right:0;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  align-items:center;
+}
+
+.btn-outline{
+  color:#fff;
+  padding:14px 30px;
+  border-radius:40px;
+  border:1.5px solid #fff;
+  background:rgba(0,0,0,.25);
+  text-decoration:none;
+}
+
+.btn-outline-sec{
+  color:#fff;
+  padding:10px 22px;
+  border-radius:30px;
+  border:1px solid #fff;
+  background:rgba(0,0,0,.2);
+  text-decoration:none;
+}
